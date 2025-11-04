@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CarbonMC — World's best plugin software</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="CarbonMC — built on Paper. Add, remove, and change plugins without stopping the server." />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">
+        <!-- put your logo.svg next to this or inline SVG -->
+        <img src="filter.png" alt="CarbonMC logo" class="logo" />
+        <span class="brand-name">CarbonMC</span>
+      </a>
+
+      <nav class="main-nav" id="mainNav">
+        <a href="#software">Download</a>
+        <a href="#plugins">Plugins</a>
+        <a href="#docs">Documentation</a>
+        <a href="#news">News</a>
+        <a href="#team">Team</a>
+        <a href="#contribute">Contribute</a>
+      </nav>
+
+      <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Built on Paper. Strong as carbon</h1>
+          <p class="lede">
+            CarbonMC is built on Paper and extends it so server admins can add, remove, and update plugins instantly — no server restart required.
+            Fast, stable, and safe.
+          </p>
+
+          <p class="hero-cta">
+            <a class="btn primary" href="#downloads">Downloads</a>
+            <a class="btn ghost" href="#docs">Documentation</a>
+          </p>
+
+          <ul class="quick-links">
+            <li><strong>Hot plugin reloads</strong> — make changes without stopping the server</li>
+            <li><strong>Paper compatible</strong> — plugin API compatibility</li>
+            <li><strong>Secure</strong> — permission and sandbox controls</li>
+          </ul>
+        </div>
+
+        <div class="hero-graphic">
+          <!-- Placeholder for screenshot or illustration -->
+          <div class="card screenshot">
+            <div class="mock-terminal">
+              <pre>
+/carbonmc> plugin add WorldEdit
+✔ WorldEdit v7.0.0 installed
+/carbonmc> plugin reload WorldEdit
+✔ WorldEdit reloaded — no restart
+              </pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="software" class="section container">
+      <h2>Software</h2>
+      <div class="features-grid">
+        <article class="feature">
+          <h3>Carbon</h3>
+          <p>Core runtime built on Paper with extra plugin lifecycle management and admin tooling.</p>
+        </article>
+
+        <article class="feature">
+          <h3>Proxy Ready</h3>
+          <p>Works with velocity and common proxy setups for large networks.</p>
+        </article>
+
+        <article class="feature">
+          <h3>Developer API</h3>
+          <p>Extends Paper's API so plugin authors can add hot-reload hooks and state preservation helpers.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="plugins" class="section alt-bg">
+      <div class="container">
+        <h2>A diverse plugin ecosystem</h2>
+        <p>CarbonMC supports existing Paper plugins and adds new admin-control plugins that allow instant installation, rollback, and safe sandboxing.</p>
+
+        <div class="plugin-actions">
+          <a class="btn" id="openPlugins" href="#hangar">Browse Plugins</a>
+          <a class="btn" href="#upload">Upload Plugin</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="getting-started" class="section container">
+      <h2>Getting started</h2>
+      <ul class="get-started-list">
+        <li><a href="#downloads">Downloads</a></li>
+        <li><a href="#docs">Documentation</a></li>
+        <li><a href="#javadocs">Javadocs</a></li>
+      </ul>
+    </section>
+
+    <section id="community" class="section container">
+      <h2>Community</h2>
+      <p>Join the CarbonMC community on Discord and GitHub — get help, contribute, and share plugins.</p>
+      <div class="community-links">
+        <a class="link" href="#" target="_blank" rel="noopener">Discord</a>
+        <a class="link" href="#" target="_blank" rel="noopener">GitHub</a>
+        <a class="link" href="#" target="_blank" rel="noopener">Forum</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>CarbonMC</strong>
+        <div class="muted">© <span id="year"></span> The CarbonMC Team</div>
+      </div>
+
+      <nav class="footer-nav">
+        <a href="#terms">Terms</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#legal">Legal</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="scripts.js" defer></script>
+</body>
+</html>
